@@ -59,7 +59,7 @@
 - `php artisan migrate`
 - Set administrator info in UserTableSeeder.php
 - `php artisan db:seed`
-- run `gulp` or `gulp watch` (Install gulp (sudo npm install -g gulp) if needed)
+- run `gulp` or `gulp watch` (Install gulp (sudo npm install -g gulp) if needed. You may need to also run `sudo npm update`.)
 
 <a name="access-control"/>
 ## Access Control System (Previously 'Vault')
