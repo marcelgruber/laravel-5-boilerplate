@@ -54,12 +54,12 @@
 
 - `composer install`
 - `npm install`
-- Create .env file (example included)
+- Create .env file (Example included. Rename example file to '.env' and make sure it is in the root directory. You may have to modify the file and change the database name.)
 - `php artisan key:generate`
 - `php artisan migrate`
-- Set administrator info in UserTableSeeder.php
+- Set administrator info as desired in UserTableSeeder.php
 - `php artisan db:seed`
-- run `gulp` or `gulp watch` (Install gulp (sudo npm install -g gulp) if needed)
+- run `gulp` or `gulp watch` (Install gulp (`sudo npm install -g gulp`) if needed)
 
 <a name="access-control"/>
 ## Access Control System (Previously 'Vault')
